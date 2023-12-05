@@ -1,0 +1,300 @@
+div {
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+    padding: 0;
+    margin: 0;
+    transition: all .9s;
+}
+.container {
+    height: 160px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    gap: 5px;
+}
+
+
+@media screen and (max-width: 1500px) {
+    div > :nth-child(2) {
+        background-color: black;
+    }
+    div + div > :nth-child(2) {
+        background-color: purple;
+    }
+    div + div + div > :nth-child(2) {
+        background-color: teal;
+    }
+    div > :nth-child(1) {
+        background-color: lightcoral;
+    }
+    div + div > :nth-child(1) {
+        background-color: lightblue;
+    }
+    div + div + div > :nth-child(1) {
+        background-color: green;
+    }
+    
+    div > :nth-child(3) {
+        background-color: yellow;
+    }
+    div + div > :nth-child(3) {
+        background-color: blue;
+    }
+    div + div + div > :nth-child(3) {
+        background-color: orange;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    div > :nth-child(2) {
+        background-color: purple;
+    }
+    div + div > :nth-child(2) {
+        background-color: teal;
+    }
+    div + div + div > :nth-child(2) {
+        background-color: lightcoral;
+    }
+    div > :nth-child(1) {
+        background-color: lightblue;
+    }
+    div + div > :nth-child(1) {
+        background-color: green;
+    }
+    div + div + div > :nth-child(1) {
+        background-color: yellow;
+    }
+    
+    div > :nth-child(3) {
+        background-color: blue;
+    }
+    div + div > :nth-child(3) {
+        background-color: orange;
+    }
+    div + div + div > :nth-child(3) {
+        background-color: black;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    div > :nth-child(2) {
+        background-color: teal;
+    }
+    div + div > :nth-child(2) {
+        background-color: lightcoral;
+    }
+    div + div + div > :nth-child(2) {
+        background-color: lightblue;
+    }
+    div > :nth-child(1) {
+        background-color: green;
+    }
+    div + div > :nth-child(1) {
+        background-color: yellow;
+    }
+    div + div + div > :nth-child(1) {
+        background-color: blue;
+    }
+    
+    div > :nth-child(3) {
+        background-color: orange;
+    }
+    div + div > :nth-child(3) {
+        background-color: black;
+    }
+    div + div + div > :nth-child(3) {
+        background-color: purple;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    div > :nth-child(2) {
+        background-color: lightcoral;
+    }
+    div + div > :nth-child(2) {
+        background-color: lightblue;
+    }
+    div + div + div > :nth-child(2) {
+        background-color: green;
+    }
+    div > :nth-child(1) {
+        background-color: yellow;
+    }
+    div + div > :nth-child(1) {
+        background-color: blue;
+    }
+    div + div + div > :nth-child(1) {
+        background-color: orange;
+    }
+    
+    div > :nth-child(3) {
+        background-color: black;
+    }
+    div + div > :nth-child(3) {
+        background-color: purple;
+    }
+    div + div + div > :nth-child(3) {
+        background-color: teal;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    div > :nth-child(2) {
+        background-color: lightblue;
+    }
+    div + div > :nth-child(2) {
+        background-color: green;
+    }
+    div + div + div > :nth-child(2) {
+        background-color: yellow;
+    }
+    div > :nth-child(1) {
+        background-color: blue;
+    }
+    div + div > :nth-child(1) {
+        background-color: orange;
+    }
+    div + div + div > :nth-child(1) {
+        background-color: black;
+    }
+    
+    div > :nth-child(3) {
+        background-color: purple;
+    }
+    div + div > :nth-child(3) {
+        background-color: teal;
+    }
+    div + div + div > :nth-child(3) {
+        background-color: lightcoral;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    div > :nth-child(2) {
+        background-color: green;
+    }
+    div + div > :nth-child(2) {
+        background-color: yellow;
+    }
+    div + div + div > :nth-child(2) {
+        background-color: blue;
+    }
+    div > :nth-child(1) {
+        background-color: orange;
+    }
+    div + div > :nth-child(1) {
+        background-color: black;
+    }
+    div + div + div > :nth-child(1) {
+        background-color: purple;
+    }
+    
+    div > :nth-child(3) {
+        background-color: teal;
+    }
+    div + div > :nth-child(3) {
+        background-color: lightcoral;
+    }
+    div + div + div > :nth-child(3) {
+        background-color: lightblue;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    div > :nth-child(2) {
+        background-color: yellow;
+    }
+    div + div > :nth-child(2) {
+        background-color: blue;
+    }
+    div + div + div > :nth-child(2) {
+        background-color: orange;
+    }
+    div > :nth-child(1) {
+        background-color: black;
+    }
+    div + div > :nth-child(1) {
+        background-color: purple;
+    }
+    div + div + div > :nth-child(1) {
+        background-color: teal;
+    }
+    
+    div > :nth-child(3) {
+        background-color: lightcoral;
+    }
+    div + div > :nth-child(3) {
+        background-color: lightblue;
+    }
+    div + div + div > :nth-child(3) {
+        background-color: green;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    div > :nth-child(2) {
+        background-color: blue;
+    }
+    div + div > :nth-child(2) {
+        background-color: orange;
+    }
+    div + div + div > :nth-child(2) {
+        background-color: black;
+    }
+    div > :nth-child(1) {
+        background-color: purple;
+    }
+    div + div > :nth-child(1) {
+        background-color: teal;
+    }
+    div + div + div > :nth-child(1) {
+        background-color: lightcoral;
+    }
+    
+    div > :nth-child(3) {
+        background-color: lightblue;
+    }
+    div + div > :nth-child(3) {
+        background-color: green;
+    }
+    div + div + div > :nth-child(3) {
+        background-color: yellow;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    div > :nth-child(2) {
+        background-color: orange;
+    }
+    div + div > :nth-child(2) {
+        background-color: black;
+    }
+    div + div + div > :nth-child(2) {
+        background-color: purple;
+    }
+    div > :nth-child(1) {
+        background-color: teal;
+    }
+    div + div > :nth-child(1) {
+        background-color: lightcoral;
+    }
+    div + div + div > :nth-child(1) {
+        background-color: lightblue;
+    }
+    
+    div > :nth-child(3) {
+        background-color: green;
+    }
+    div + div > :nth-child(3) {
+        background-color: yellow;
+    }
+    div + div + div > :nth-child(3) {
+        background-color: blue;
+    }
+    
+}
