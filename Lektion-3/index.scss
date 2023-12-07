@@ -1,0 +1,9 @@
+@use "sass:math";
+.container2 {
+    .hello {
+        size: 50px;
+        color: blue;
+    }
+    background-color: red;
+    width: 100px * 4;
+}

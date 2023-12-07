@@ -14,7 +14,19 @@ div {
     border: none;
     gap: 5px;
 }
+.hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.hover:hover {
+    background-color: darkblue;
+}
+.hover:hover::after {
+    content: "Hello there!";
+    color: white;
+}
 
 @media screen and (max-width: 1500px) {
     div > :nth-child(2) {
